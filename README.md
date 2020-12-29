@@ -40,7 +40,7 @@ Open a windows cmd or powershell by <b>running it as administrator</b>.<br />
 5. download a [zipped version of nodejs](https://nodejs.org/dist/v14.15.3/node-v14.15.3-win-x64.zip) and unzip it in your new directory.
 6. Setup a functional environment for your cmd/powershell:
     * SET NodeVersion=xxxxxx (replace 'xxxxxx' by the version matching your download. E.g.: '14.15.3')
-    * CALL SET Path=%SYS32PATH%;%CD%\node-v%NodeVersion%-win-x64;%CD%\node_modules\.bin
+    * CALL SET Path=%SYS32PATH%;%CD%\\node-v%NodeVersion%-win-x64;%CD%\\node_modules\\.bin
 
 ### installing the package ###
 
