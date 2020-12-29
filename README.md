@@ -22,7 +22,7 @@ The intention is, to finally create a windows installer from this ... one day :-
 * Developers
   * [Build windows-service-for-verdaccio from scratch](docs/grunt.md#building)
   * [Frameworks used for building and running grunt-nyc-mocha](docs/frameworks.md)
-  * [API of package windows-service-for-verdaccio](docs/api.md) (self generated with windows-service-for-verdaccio)
+  * [API of package windows-service-for-verdaccio](docs/api.md)
 
 ## getting started ##
 
