@@ -1,5 +1,5 @@
 /**
- *	cli.js: windows-service-for-verdaccio<br />
+ *  cli.js: windows-service-for-verdaccio<br />
  *  This module exports a number of cli functions. While function 'cli' is
  *  soley used and called by the parent module, all other functions get published
  *  by the package.<br />
@@ -354,7 +354,7 @@ Object.defineProperty( module.exports, _STRINGS.STOP,         {
 Object.defineProperty( module.exports, _STRINGS.RESTART,      {
        value:    restart,
        writable: false, enumerable: true, configurable: false });
-Object.defineProperty( module.exports, _STRINGS.RUN,  {
+Object.defineProperty( module.exports, _STRINGS.RUN,          {
        value:    run,
        writable: false, enumerable: true, configurable: false });
 /* eslint-enable */
