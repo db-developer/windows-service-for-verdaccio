@@ -37,7 +37,7 @@ Open a windows cmd or powershell by <b>running it as administrator</b>.<br />
 2. mkdir verdaccio
 3. cd verdaccio
 4. download a [zipped version of nodejs](https://nodejs.org/dist/v14.15.3/node-v14.15.3-win-x64.zip) and unzip it in your new directory.
-5. download env.bat and copy it in your directory.
+5. download [env.bat](src/env.bat) and copy it in your directory.
 5. Edit env.bat and setup a functional environment:
     * SET NodeVersion=xxxxxx (replace 'xxxxxx' by the version matching your download. E.g.: '14.15.3')
     * CALL SET Path=%SYS32PATH%;%CD%\\node-v%NodeVersion%-win-x64;%CD%\\node_modules\\.bin
@@ -45,22 +45,22 @@ Open a windows cmd or powershell by <b>running it as administrator</b>.<br />
 
 ### installing the package ###
 
-Assuming you ran cmd or powershell as administrator and you are located in the newly created directory, type:
+Assuming you ran cmd or powershell as administrator and you are located in the newly created directory, type:<br />
 <code>C:\Program Files (x86)\verdaccio> npm install windows-service-for-verdaccio</code>
 
-After a successful installation, please run the following command:
+After a successful installation, please run the following command:<br />
 <code>C:\Program Files (x86)\verdaccio> verdaccio-winsvc init</code>
 
 ### further usage ###
 
-To find out any further commands, type:
+To find out any further commands, type:<br />
 <code>C:\Program Files (x86)\verdaccio> verdaccio-winsvc -h</code>
 
-If you did not already do it, install the windows service now:
+If you did not already do it, install the windows service now:<br />
 <code>C:\Program Files (x86)\verdaccio> verdaccio-winsvc install</code>
 
-You may either start the service via the windows services panel or by:
+You may either start the service via the windows services panel or by:<br />
 <code>C:\Program Files (x86)\verdaccio> verdaccio-winsvc start</code>
 
-Switch to your Browser and navigate to [http://localhost:4873/](http://localhost:4873/)
+Switch to your Browser and navigate to [http://localhost:4873/](http://localhost:4873/)<br />
 If you need assistance with verdaccio, [follow this link](https://verdaccio.org).
