@@ -36,11 +36,12 @@ Open a windows cmd or powershell by <b>running it as administrator</b>.<br />
 1. cd %ProgramFiles(x86)%
 2. mkdir verdaccio
 3. cd verdaccio
-4. npm init
-5. download a [zipped version of nodejs](https://nodejs.org/dist/v14.15.3/node-v14.15.3-win-x64.zip) and unzip it in your new directory.
-6. Setup a functional environment for your cmd/powershell:
+4. download a [zipped version of nodejs](https://nodejs.org/dist/v14.15.3/node-v14.15.3-win-x64.zip) and unzip it in your new directory.
+5. download env.bat and copy it in your directory.
+5. Edit env.bat and setup a functional environment:
     * SET NodeVersion=xxxxxx (replace 'xxxxxx' by the version matching your download. E.g.: '14.15.3')
     * CALL SET Path=%SYS32PATH%;%CD%\\node-v%NodeVersion%-win-x64;%CD%\\node_modules\\.bin
+6. npm init
 
 ### installing the package ###
 
