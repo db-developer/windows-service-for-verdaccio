@@ -22,7 +22,7 @@ The intention is, to finally create a windows installer from this ... one day :-
 * Developers
   * [Build windows-service-for-verdaccio from scratch](docs/grunt.md#building)
   * [Frameworks used for building and running grunt-nyc-mocha](docs/frameworks.md)
-  * [API of package windows-service-for-verdaccio](docs/api.md)
+  * [API of package windows-service-for-verdaccio](docs/api.index.md)
 
 ## getting started ##
 
@@ -44,7 +44,7 @@ Open a windows cmd or powershell by <b>running it as administrator</b>.<br />
 6. npm init
 
 <b>Note:</b>
-Services on windows are usually run, using the builtin <code>System</code> Account. This is why running files as service, from directories that do not reside within <code>%ProgramFiles(x86)%</code> or <code>ProgramFiles</code> is a threat to your local systems security and is not recommended. 
+Services on windows are usually run, using the builtin <code>System</code> account. This is why running files as service, from directories that do not reside within <code>%ProgramFiles(x86)%</code> or <code>%ProgramFiles%</code> is a threat to your local systems security and is not recommended.
 
 ### installing the package ###
 
