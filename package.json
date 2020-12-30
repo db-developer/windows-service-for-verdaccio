@@ -1,6 +1,6 @@
 {
   "name": "windows-service-for-verdaccio",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "have a windows service run verdaccio",
   "author": "Dirk Brenckmann <db.developer@gmx.de>",
   "license": "MIT",
