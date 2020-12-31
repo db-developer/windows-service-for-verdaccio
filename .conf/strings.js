@@ -5,6 +5,7 @@
 
 module.exports = {
   ALL:      "all",
+  ANY:      "any",
   API:      "api",
   BUILD:    "build",
   BUILDWP:  "webpack_build",
@@ -26,9 +27,12 @@ module.exports = {
   LIB:      "lib",
   MKDIR:    "mkdir",
   MOVE:     "move",
+  NYCMOCHA: "nyc_mocha",
   REPORTS:  "reports",
+  ROLLUP:   "rollup",
   SRC:      "src",
   TEMPLATE: "template",
   TEST:     "test",
-  TMP:      "tmp"
+  TMP:      "tmp",
+  WEBPACK:  "webpack"
 }
