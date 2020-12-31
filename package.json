@@ -1,7 +1,7 @@
 {
   "name": "windows-service-for-verdaccio",
   "version": "0.0.4",
-  "description": "have a windows service run verdaccio",
+  "description": "Install and run a windows service for verdaccio, based on node-windows",
   "author": "Dirk Brenckmann <db.developer@gmx.de>",
   "license": "MIT",
   "engines": {

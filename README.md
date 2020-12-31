@@ -1,6 +1,7 @@
 # windows-service-for-verdaccio
 
-Windows - setting up a windows service for 'verdaccio'
+Install and run a windows service for [verdaccio](https://verdaccio.org),
+based on [node-windows](https://github.com/coreybutler/node-windows#readme)
 
 [![npm version](https://img.shields.io/npm/v/windows-service-for-verdaccio?color=blue)](https://www.npmjs.com/package/windows-service-for-verdaccio)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -10,7 +11,7 @@ Windows - setting up a windows service for 'verdaccio'
 [![dependencies](https://david-dm.org/db-developer/windows-service-for-verdaccio.svg)](https://david-dm.org/)
 
 This package will help you in setting up a directory on your windows filesystem,
-install [verdaccio](https://verdaccio.org) and install and run it as a windows service.
+install [verdaccio](https://verdaccio.org) and setup and run it as a windows service.
 
 The intention is, to finally create a windows installer from this ... one day :-)
 
